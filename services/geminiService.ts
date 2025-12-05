@@ -15,7 +15,7 @@ export const generateDiagnosticResponse = async (userMessage: string): Promise<s
       model: 'gemini-2.5-flash',
       contents: userMessage,
       config: {
-        systemInstruction: `You are a helpful, friendly, and professional virtual assistant for "Ace Hero Plumber", a plumbing company in Orange County, CA. 
+        systemInstruction: `You are a helpful, friendly, and professional virtual assistant for "Bran Solution", a plumbing company in Orange County, CA. 
         
         Your goal is to:
         1. Briefly assess the user's plumbing issue based on their description.

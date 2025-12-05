@@ -2,9 +2,9 @@ import React from 'react';
 import { WrenchIcon, DropIcon, FireIcon, CameraIcon, ShieldCheckIcon, ClockIcon } from './components/Icons';
 import { ServiceItem, Review } from './types';
 
-export const COMPANY_NAME = "Ace Hero Plumber";
+export const COMPANY_NAME = "Bran Solution";
 export const PHONE_NUMBER = "(949) 555-0199";
-export const EMAIL_ADDRESS = "hello@aceheroplumber.com";
+export const EMAIL_ADDRESS = "hello@bransolution.com";
 export const SERVICE_AREAS = ["Irvine", "Newport Beach", "Anaheim", "Huntington Beach", "Fullerton", "Santa Ana"];
 export const HERO_VIDEO_URL = "https://videos.pexels.com/video-files/4057313/4057313-uhd_2560_1440_25fps.mp4"; // Clean, high-key water ripples
 

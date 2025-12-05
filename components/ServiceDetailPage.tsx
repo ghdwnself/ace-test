@@ -82,7 +82,7 @@ const ServiceDetailPage: React.FC<ServiceDetailPageProps> = ({ service, onBack, 
         {/* Why Choose OC Prime Plumbing? Section (Extracted from Sidebar) */}
         <div className="mb-16 border-t border-slate-100 pt-16">
           <div className="text-center mb-10">
-            <h3 className="text-2xl font-bold text-slate-900">Why Choose Ace Hero Plumber?</h3>
+            <h3 className="text-2xl font-bold text-slate-900">Why Choose Bran Solution?</h3>
             <p className="text-slate-600 mt-2">The trusted choice for Orange County homeowners.</p>
           </div>
           
