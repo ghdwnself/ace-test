@@ -2,14 +2,14 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# 🚀 Ace Hero Plumber 웹사이트
+# 🚀 Bran Solution 웹사이트
 
 > AI Studio에서 생성된 배관 서비스 웹사이트입니다.
 
 ## 📌 라이브 데모
 
-- **커스텀 도메인 (GoDaddy)**: https://aceheroplumber.com (DNS 설정 후)
-- **GitHub Pages 기본 URL**: https://ghdwnself.github.io/ace-test (커스텀 도메인 미설정 시)
+- **커스텀 도메인 (GoDaddy)**: https://bransolution.com (DNS 설정 후)
+- **GitHub Pages 기본 URL**: https://ghdwnself.github.io/bran-test (커스텀 도메인 미설정 시)
 
 ---
 
@@ -43,10 +43,10 @@ npm run dev
 커스텀 도메인이 없다면 다음 단계를 따르세요:
 
 1. `public/CNAME` 파일 삭제
-2. `vite.config.ts`에서 `base: '/'`를 `base: '/ace-test/'`로 변경
+2. `vite.config.ts`에서 `base: '/'`를 `base: '/bran-test/'`로 변경
 3. main 브랜치에 푸시
 
-그러면 https://ghdwnself.github.io/ace-test 에서 접속 가능합니다.
+그러면 https://ghdwnself.github.io/bran-test 에서 접속 가능합니다.
 
 ---
 
@@ -59,7 +59,7 @@ npm run dev
 
 ### 2단계: GoDaddy DNS 설정
 
-#### A. 기본 도메인 (예: `aceheroplumber.com`)
+#### A. 기본 도메인 (예: `bransolution.com`)
 
 1. [GoDaddy](https://godaddy.com) 로그인
 2. **My Products** → 도메인 선택 → **DNS** 관리
@@ -81,12 +81,12 @@ npm run dev
 ### 3단계: CNAME 파일 확인
 `public/CNAME` 파일에 도메인이 설정되어 있는지 확인:
 ```
-aceheroplumber.com
+bransolution.com
 ```
 
 ### 4단계: GitHub에서 커스텀 도메인 설정
 1. 저장소 → **Settings** → **Pages** 이동
-2. **Custom domain**에 `aceheroplumber.com` 입력
+2. **Custom domain**에 `bransolution.com` 입력
 3. **Save** 클릭
 4. **Enforce HTTPS** 체크 (DNS 전파 후 활성화됨)
 
@@ -100,7 +100,7 @@ aceheroplumber.com
 ## 📁 프로젝트 구조
 
 ```
-ace-test/
+bran-test/
 ├── App.tsx              # 메인 앱 컴포넌트
 ├── index.html           # HTML 템플릿
 ├── index.tsx            # React 진입점
@@ -145,4 +145,4 @@ ace-test/
 
 ## 📞 지원
 
-문제가 있으면 [Issues](https://github.com/ghdwnself/ace-test/issues)에 문의해주세요.
+문제가 있으면 [Issues](https://github.com/ghdwnself/bran-test/issues)에 문의해주세요.

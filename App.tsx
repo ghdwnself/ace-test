@@ -89,10 +89,10 @@ const App = () => {
             {/* Logo */}
             <button onClick={navigateToHome} className="flex-shrink-0 flex items-center gap-2 outline-none">
               <div className="w-8 h-8 bg-primary-600 rounded-lg flex items-center justify-center text-white font-bold text-xl">
-                A
+                B
               </div>
               <span className="font-bold text-xl tracking-tight text-slate-900">
-                Ace<span className="text-primary-600">Hero</span> Plumber
+                Bran<span className="text-primary-600">Solution</span>
               </span>
             </button>
 
@@ -245,7 +245,7 @@ const App = () => {
                      {/* Founder Image */}
                      <img 
                        src="https://images.pexels.com/photos/8961003/pexels-photo-8961003.jpeg" 
-                       alt="Hyun Min, Founder" 
+                       alt="Brandon Park, Founder" 
                        className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                      />
                      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
@@ -253,11 +253,11 @@ const App = () => {
                      <div className="absolute bottom-0 left-0 right-0 bg-white/95 backdrop-blur-sm p-6 m-6 rounded-2xl shadow-lg border border-white/50">
                         <div className="flex items-center gap-4">
                            <div className="h-14 w-14 rounded-full bg-slate-200 overflow-hidden flex-shrink-0 border-2 border-primary-500">
-                              <img src="https://images.pexels.com/photos/8961003/pexels-photo-8961003.jpeg" alt="Hyun Min" className="w-full h-full object-cover" />
+                              <img src="https://images.pexels.com/photos/8961003/pexels-photo-8961003.jpeg" alt="Brandon Park" className="w-full h-full object-cover" />
                            </div>
                            <div>
-                              <p className="text-primary-600 text-xs font-bold uppercase tracking-wider mb-0.5">Ace Hero Plumber</p>
-                              <p className="font-bold text-slate-900 text-lg">Hyun Min</p>
+                              <p className="text-primary-600 text-xs font-bold uppercase tracking-wider mb-0.5">Bran Solution</p>
+                              <p className="font-bold text-slate-900 text-lg">Brandon Park</p>
                               <p className="text-sm text-slate-500">Founder, Master Plumber</p>
                            </div>
                            <div className="ml-auto">
@@ -484,7 +484,7 @@ const App = () => {
       <footer className="bg-slate-900 text-slate-400 py-12 border-t border-slate-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-center md:text-left">
-            <span className="block text-white font-bold text-xl tracking-tight mb-2">Ace<span className="text-primary-500">Hero</span> Plumber</span>
+            <span className="block text-white font-bold text-xl tracking-tight mb-2">Bran<span className="text-primary-500">Solution</span></span>
             <p className="text-sm">© {new Date().getFullYear()} All rights reserved.</p>
           </div>
           <div className="flex gap-6">

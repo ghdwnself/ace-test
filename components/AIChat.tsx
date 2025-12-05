@@ -6,7 +6,7 @@ import { generateDiagnosticResponse } from '../services/geminiService';
 const AIChat: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<ChatMessage[]>([
-    { role: 'model', text: 'Hi! I am the Ace Hero Plumber assistant. Describe your plumbing issue, and I can help diagnose it or schedule a visit.' }
+    { role: 'model', text: 'Hi! I am the Bran Solution assistant. Describe your plumbing issue, and I can help diagnose it or schedule a visit.' }
   ]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
