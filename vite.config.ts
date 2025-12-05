@@ -5,8 +5,8 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
-      // Base path - set to '/bran-solution/' for GitHub Pages subdirectory deployment
-      base: '/bran-solution/',
+      // Base path - set to '/ace-test/' for GitHub Pages subdirectory deployment
+      base: '/ace-test/',
       server: {
         port: 3000,
         host: '0.0.0.0',
